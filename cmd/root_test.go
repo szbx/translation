@@ -38,6 +38,6 @@ func TestGetSha256(t *testing.T) {
 }
 
 func TestTransform(t *testing.T) {
-	ret, _ := transform("Non-Motor Vehicle")
+	ret, _ := translate("Non-Motor Vehicle")
 	log.Printf("%#v", ret)
 }
