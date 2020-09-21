@@ -72,9 +72,7 @@ var rootCmd = &cobra.Command{
 			}
 		}
 
-		// fmt.Println("content", content)
 		ret, _ := transform(content)
-		// fmt.Printf("%#v", ret)
 		for _, s := range ret.Translation {
 			fmt.Printf("%v\n", s)
 		}
